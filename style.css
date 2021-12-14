@@ -1,0 +1,151 @@
+:root {
+  font-size: 18px;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.home {
+  /* display: inline-block; */
+  /* margin: 0 0.5rem; */
+
+  animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+.container-1 {
+  background: 
+    url(img/3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-content: center;
+  align-items: flex-end;
+  text-align: center;
+  
+}
+.mylink{
+  font-size: 1.5rem;
+  padding: 10px 0px;
+  margin: 5px 0px ;
+  color: black;
+  text-decoration: none;
+  border-top: 1px solid #820908;
+  border-bottom: 1px solid #820908;
+}
+.mylink:hover{
+ 
+  color: #820908;
+  font-weight: 900;
+}
+.menu-ico{
+  border: 1px solid #820908;
+  display: inline-grid;
+  padding: 10px;
+}
+.nav-menu{
+  width: 30px;
+  height: 2px;
+  background: black;
+  margin:3px auto;
+}
+.bg-2 {
+  background: url(img/rechange.jpg.crdownload);
+  background-size: contain;
+
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+.container-2,
+.container-3,
+.container-4 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
+/*----------------*/
+.nav{
+  height: 2px;
+  width: 30px;
+  background: black;
+  margin: 5px auto;
+  
+  
+}
+
+.nav-icon{
+border: 1px solid #820908; 
+padding: 15px;
+  
+}
+nav{
+  position: fixed;
+  top: O;
+  left: 0;
+  right: 0;
+  bottom: 0;
+z-index: 1;
+  background: linear-gradient(rgba(255, 255, 255, 0.74), rgba(255, 0, 0, 0.384)) ,url(img/abstract.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw; 
+  color: white;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.header{
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-around;
+  /* align-content: flex-end; */
+   padding: 20px ;
+}
+
+nav ul li {
+  
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  line-height: 60px;
+}
+.link{
+  font-size: 40px;
+  list-style-type:decimal;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.link-s{
+  font-size: 30px;
+  font-weight: bold;
+}
+.link a:hover , .link-s a:hover{
+  color: antiquewhite;
+}
+
+
+li:hover{
+
+  list-style: none;
+  padding-left: 20px;    
+
+ transition:ease-in-out 0.5s;
+
+}
+
+ 

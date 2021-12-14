@@ -148,4 +148,12 @@ li:hover{
 
 }
 
+ /************** Div 6 --------------*/
+
  
+ 
+ .div-change:hover{
+   background: black !important;
+   /* transition: ease-in 1s; */
+   transform:scale(1.1);
+ }
